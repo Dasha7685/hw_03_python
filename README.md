@@ -30,12 +30,18 @@ git clone https://github.com/Dasha7685/hw_03_python.git
   venv\Scripts\activate
   ```
 3. Установите зависимости:
-pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
+   ```
 4. Запустите основной скрипт для парсинга данных:
-python scraper.py
+   ```
+   python scraper.py
+   ```
 ## Тестирование
 Для запуска тестов в корне проекта используйте команду:
-pytest
+   ```
+   pytest
+   ```
 ## Используемые библиотеки
 - requests — для HTTP-запросов
 - BeautifulSoup (bs4) — для парсинга HTML
